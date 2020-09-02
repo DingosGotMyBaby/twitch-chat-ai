@@ -15,15 +15,15 @@ Why? cause we did
         $ tcd --channel ramee,uhsnow,koil,lord_kebun,thacoop,lagtvmaximusblack --first 5 -f json
     ```
 2. Run `conversion.py`, located in the main folder
-```sh
-    $ python conversion.py
-```
+    ```sh
+        $ python conversion.py
+    ```
 3. CD into the output folder then `cat *.txt > ../processed/output.txt`
 4. Then you can run your choice of `markov.py` or `ai.py`
-```sh
-    $ python markov.py
-```
-or
-```sh
-    $ python ai.py
-```
+    ```sh
+        $ python markov.py
+    ```
+    or  
+    ```sh
+        $ python ai.py
+    ```
